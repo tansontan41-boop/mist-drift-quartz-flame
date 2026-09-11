@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f3eee4;
+  --color-bg-deep: #ebe4d6;
+  --color-surface: #fffdf8;
+  --color-fg: #1c1914;
+  --color-muted: #6a6358;
+  --color-faint: #9a9286;
+  --color-primary: #3d5c4a;
+  --color-primary-fg: #f4f7f4;
+  --color-accent: #c45c26;
+  --color-accent-soft: #f3e2d4;
+  --color-border: #ddd4c4;
+  --color-good: #2f6b4f;
+  --color-warn: #a15c12;
+  --color-bad: #9b3b2e;
+  --color-line: #e8dfd0;
+  --font-sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+    font-family: var(--font-serif);
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media print {
+  nav, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  main {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+}

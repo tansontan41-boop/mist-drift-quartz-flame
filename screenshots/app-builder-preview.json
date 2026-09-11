@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "银居计划",
+      "hasCanvas": false,
+      "bodyTextLen": 4449,
+      "bodyTextHash": "22ae568e16bbfa0982980acfbce54d4653be5b62f02c6af1a01f870b29396f13",
+      "bodyTextPrefix": "SILVER HOME PLAN · 2026 银居计划 把上海银发商店拆成普通人能做的三种模式，并按深圳 / 二线省会 / 地",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "银居计划",
+      "hasCanvas": false,
+      "bodyTextLen": 4449,
+      "bodyTextHash": "22ae568e16bbfa0982980acfbce54d4653be5b62f02c6af1a01f870b29396f13",
+      "bodyTextPrefix": "SILVER HOME PLAN · 2026 银居计划 把上海银发商店拆成普通人能做的三种模式，并按深圳 / 二线省会 / 地",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
